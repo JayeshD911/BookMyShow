@@ -1,6 +1,13 @@
 package com.jayesh.BookMyShow.models;
 
-public class Movie {
+import jakarta.persistence.Entity;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Entity
+public class Movie extends BaseModel{
     private String title;
     private String genre;
     private String director;
