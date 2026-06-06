@@ -3,6 +3,7 @@ package com.jayesh.BookMyShow;
 import com.jayesh.BookMyShow.controllers.UserController;
 import com.jayesh.BookMyShow.dtos.SignUpUserRequestDTO;
 import com.jayesh.BookMyShow.dtos.SignUpUserResponseDTO;
+import jakarta.annotation.Nullable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.CommandLineRunner;
@@ -14,7 +15,7 @@ public class BookMyShowApplication implements CommandLineRunner {
 	UserController userController;
 
 	@Override
-	public void run(String... args) throws Exception {
+	public void run(@Nullable String... args) throws Exception {
 		SignUpUserRequestDTO request = new SignUpUserRequestDTO();
 		request.setName("Jayesh");
 		request.setEmail("jaydec1997@gmail.com");
