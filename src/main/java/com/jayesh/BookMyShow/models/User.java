@@ -11,11 +11,11 @@ import lombok.Setter;
 @Setter
 @Entity
 public class User extends BaseModel{
-    public String name;
-    public String email;
-    public String password;
+    private String name;
+    private String email;
+    private String password;
     @OneToMany
-    public List<Booking> bookings;
+    private List<Booking> bookings;
 }
 
 // User   1 : M   Booking
