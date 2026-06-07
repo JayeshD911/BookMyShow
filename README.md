@@ -150,4 +150,4 @@ src/main/java/com/jayesh/BookMyShow
 
 ## License
 
-This project is intended for learning, interview preparation, and portfolio demonstration.
+This project is intended for learning and portfolio demonstration.
