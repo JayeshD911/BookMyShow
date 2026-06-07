@@ -14,7 +14,6 @@ An interview-ready, Spring Boot based movie ticket booking backend inspired by B
 - [Configuration](#configuration)
 - [How to Run](#how-to-run)
 - [Future Improvements](#future-improvements)
-- [Interview Talking Points](#interview-talking-points)
 
 ## Overview
 

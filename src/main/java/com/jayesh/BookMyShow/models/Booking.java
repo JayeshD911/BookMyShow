@@ -29,6 +29,5 @@ public class Booking extends BaseModel{
 // Cardinality:
 //User  1 : M      Booking
 // Booking  1 : M    Payments
-// Bookign M : 1  SHow
+// Booking M : 1  SHow
 
-// Sign up a user
