@@ -137,17 +137,6 @@ mvn test
 - Add unit and integration tests for services and controllers
 - Add API documentation with Swagger / OpenAPI
 
-## Interview Talking Points
-
-If you are presenting this project in an interview, highlight:
-
-- Why you chose a layered architecture
-- How entity relationships are modeled in JPA
-- How DTOs help keep API contracts separate from persistence models
-- How seat availability can be handled in a concurrent booking system
-- How the payment and booking status flow is represented in the domain
-- How the project can evolve into a production-grade booking platform
-
 ## Folder Structure
 
 ```text
