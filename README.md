@@ -91,7 +91,7 @@ The project currently includes the following primary controllers:
 
 ### Database
 
-The application is configured to use a MySQL database named `BMS`.
+The application is configured to use a MySQL database.
 
 If you are running it locally, make sure the database exists and update credentials in:
 
